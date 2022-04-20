@@ -24,7 +24,7 @@ func resourceSiteKey() *schema.Resource {
 		Schema: map[string]*schema.Schema{
 			"rsa_bits": &schema.Schema{
 				Type:      schema.TypeInt,
-				Required:  false,
+				Optional:  true,
 				Default:   4096,
 				Sensitive: false,
 				ForceNew:  true,
