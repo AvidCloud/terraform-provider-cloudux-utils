@@ -14,7 +14,7 @@ func Provider() *schema.Provider {
 		Schema: map[string]*schema.Schema{},
 
 		ResourcesMap: map[string]*schema.Resource{
-			"site_key": resourceSiteKey(),
+			"cloudux-utils-site_key": resourceSiteKey(),
 		},
 		DataSourcesMap:       map[string]*schema.Resource{},
 		ConfigureContextFunc: providerConfigure,
