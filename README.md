@@ -1,21 +1,3 @@
-# Terraform Provider cloudux-utils
+# Deprecated
 
-Run the following command to build the provider
-
-```shell
-go build -o terraform-provider-cloudux-utils
-```
-
-## Test sample configuration
-
-First, build and install the provider.
-
-```shell
-make install
-```
-
-Then, run the following command to initialize the workspace and apply the sample configuration.
-
-```shell
-terraform init && terraform apply
-```
+Please use https://github.com/AvidCloud/terraform-provider-cloudux
