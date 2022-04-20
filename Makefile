@@ -43,3 +43,4 @@ example_run:
 	@cd examples && terraform init && terraform apply --auto-approve
 
 example_all: install example_clean example_run
+

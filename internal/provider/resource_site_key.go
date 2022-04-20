@@ -1,3 +1,4 @@
+// Copyright 2022 by Avid Technology, Inc.
 package provider
 
 import (
